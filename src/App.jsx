@@ -4,6 +4,7 @@ import Hero from './Components/NavBar/Hero/Hero'
 import About from './Components/About/About'
 import Services from './Components/Services/Services'
 import MyWorks from './MyWorks/MyWorks'
+import Contact from './Components/Contacts/Contact'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <About></About>
       <Services></Services>
       <MyWorks></MyWorks>
+      <Contact></Contact>
     </div>
   )
 }
