@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/about_profile.svg'
+import profile_img from '../../assets/about_profile.png'
 
 const About = () => {
     return (
@@ -18,8 +18,8 @@ const About = () => {
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p>I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
-                        <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
+                        <p>I am a front-end web developer with solid skills in HTML, CSS, Tailwind CSS, and React.js. I focus on creating responsive and user-friendly websites that work well on all devices, using clean and efficient code.</p>
+                        <p>I am committed to learning and staying updated with the latest technologies to improve my skills. My goal is to build high-quality web applications that provide great user experiences and meet current industry standards.</p>
                     </div>
 
                     <div className="about-skills">

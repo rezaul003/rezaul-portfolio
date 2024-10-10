@@ -98,3 +98,38 @@
         gap: 30px;
     }
 }
+
+
+
+
+@media(max-width: 425px) {
+    .services {
+        align-items: start;
+        gap: 40px;
+        margin: 15px 40px;
+    }
+
+    .services-title h1 {
+        padding: 0;
+        font-size: 40px;
+    }
+    .services-format{
+        gap: 15px;
+        padding: 20px;
+    }
+    .services-format h2{
+        font-size: 25px;
+    }
+    .services-format p{
+        font-size: 18px;
+        line-height: 25px;
+        max-width: 250px;
+    }
+    .services-readmore img{
+        width: 15px;
+    }
+    .services-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}

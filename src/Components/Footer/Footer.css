@@ -1,24 +1,29 @@
-.footer{
+.footer {
     display: flex;
     flex-direction: column;
     margin: 50px 170px;
     gap: 30px;
 }
-.footer-top{
+
+.footer-top {
     display: flex;
     justify-content: space-between;
 }
-.footer-top-left p{
-    font-size: 20px;
+
+.footer-top-left p {
+    /* font-size: 20px; */
     max-width: 400px;
 }
 
-.footer-top-right{
+
+
+.footer-top-right {
     display: flex;
     align-items: center;
     gap: 35px;
 }
-.footer-email-input{
+
+.footer-email-input {
     display: flex;
     gap: 30px;
     padding: 20px 30px;
@@ -26,7 +31,8 @@
     background: #32323B;
     padding-right: 80px;
 }
-.footer-email-input input{
+
+.footer-email-input input {
     outline: none;
     border: none;
     background: transparent;
@@ -34,7 +40,8 @@
     font-family: outfit;
     font-size: 18px;
 }
-.footer-subscribe{
+
+.footer-subscribe {
     font-size: 20px;
     padding: 22px 50px;
     border-radius: 50px;
@@ -42,38 +49,80 @@
     cursor: pointer;
     transition: 0.3s;
 }
-.footer-bottom{
+
+.footer-bottom {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     font-size: 18px;
+    margin-bottom: 30px;
 
 }
-.footer-bottom-right{
+
+.footer-bottom-right {
     display: flex;
     gap: 50px;
     margin-bottom: 50px;
 }
 
-.footer-email-input:hover{
+.footer-email-input:hover {
     border: 2px solid white;
 
 }
-.footer-subscribe:hover{
+
+.footer-subscribe:hover {
     transform: scale(1.1);
     transition: 0.3s;
 }
 
-@media(max-width: 768px){
-    .footer{
+@media(max-width: 768px) {
+    .footer {
         margin: 50px 70px;
     }
-    .footer-top{
+.logo{
+    font-size: 18px;
+}
+.logo-bottom{
+    display: none;
+}
+    .footer-top {
         flex-direction: column;
         gap: 50px;
     }
-    .footer-bottom{
+
+    .footer-bottom {
         display: flex;
         flex-direction: column-reverse;
         margin-bottom: 50px;
+    }
+
+}
+
+
+@media(max-width: 425px) {
+    .footer-top-right {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .logo{
+        font-size: 18px;
+    }
+    .logo-bottom{
+        display: none;
+    }
+    .footer-email-input {
+        margin-left: 30px;
+        align-items: center;
+        max-width: 230px;
+        max-height: 15px;
+    }
+
+    .footer-subscribe {
+        font-size: 15px;
+        max-width: 60px;
+        max-height: 20px;
+        align-items: start;
+        padding: 15px 30px;
+        justify-content: center;
     }
 }
