@@ -12,11 +12,24 @@ const MyWorks = () => {
             <div className="mywork-container">
                 {
                     mywork_data.map((work, index) => {
-                        return <img key={index} src={work.w_img}></img>
+                        return <div key={index}>
+                            <a href={work.live_link}>
+                                <img src={work.w_img}></img>
+                            </a>
+
+                            <div className='mywork-buttons'>
+                                <button>
+                                    <a href={work.live_link}>Live Link</a>
+                                </button>
+                                <button>
+                                    <a href={work.github_link}>Github Link</a>
+                                </button>
+                            </div>
+                        </div>
                     })
                 }
             </div>
-           
+
 
         </div>
     );

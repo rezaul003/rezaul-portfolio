@@ -9,7 +9,7 @@ const About = () => {
 
             <div className="about-title">
                 <h1>About me</h1>
-              
+
             </div>
 
             <div className="about-section">
@@ -23,10 +23,11 @@ const About = () => {
                     </div>
 
                     <div className="about-skills">
-                        <div className='about-skill'><p>HTML & CSS</p> <hr style={{ width: "90%" }} /></div>
-                        <div className='about-skill'><p>JavaScript</p> <hr style={{ width: "75%" }} /></div>
-                        <div className='about-skill'><p>React JS</p> <hr style={{ width: "80%" }} /></div>
-                        <div className='about-skill'><p>Next JS</p> <hr style={{ width: "50%" }} /></div>
+                        <div className='about-skill'><p>HTML & CSS</p> <hr style={{ width: "95%" }} /></div>
+                        <div className='about-skill'><p>Tailwind CSS</p> <hr style={{ width: "90%" }} /></div>
+                        <div className='about-skill'><p>JavaScript</p> <hr style={{ width: "60%" }} /></div>
+                        <div className='about-skill'><p>React JS</p> <hr style={{ width: "70%" }} /></div>
+                        <div className='about-skill'><p>Next JS</p> <hr style={{ width: "40%" }} /></div>
                     </div>
 
                 </div>
